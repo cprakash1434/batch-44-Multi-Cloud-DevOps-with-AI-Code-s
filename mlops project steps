@@ -82,7 +82,7 @@ eksctl create cluster \
 --nodes-max 3 \
 --managed 
 
-kubectl apply -f k8s.deploy.yml 
+kubectl apply -f k8s-deploy.yml 
 kubectl get deploy
 kubectel get svc
 kubectl get po
